@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="384dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="276dp"
+                android:layout_marginLeft="276dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:text=" حفل التخرج 2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/img1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.958"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.41000003"
+                app:layout_constraintVertical_chainStyle="spread_inside"
+                tools:background="@color/colorBehindIcon" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="384dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="276dp"
+                android:layout_marginLeft="276dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:text=" حفل التخرج 2017"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/img2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.958"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/g8"
+                tools:background="@color/colorBehindIcon" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+                android:gravity="right|center_vertical"
+                android:onClick="clk"
+                android:paddingRight="12dp"
+                android:text="@string/boy_cerem"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+            <Button
+                android:id="@+id/g6"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+                android:gravity="right|center_vertical"
+                android:onClick="clk"
+                android:paddingRight="12dp"
+                android:text="@string/girl_cerem"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/b6" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="401dp"
+                android:layout_height="80dp"
+                app:layout_constraintBottom_toTopOf="@+id/g7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:srcCompat="@drawable/cer_sec" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="401dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="426dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cer_third" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+                android:gravity="right|center_vertical"
+                android:onClick="clk"
+                android:paddingRight="12dp"
+                android:text="@string/boy_cerem"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img3" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="401dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/b8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cer_first" />
+
+            <Button
+                android:id="@+id/g8"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+                android:gravity="right|center_vertical"
+                android:onClick="clk"
+                android:paddingRight="12dp"
+                android:text="@string/girl_cerem"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/b8" />
+
+            <Button
+                android:id="@+id/loginButton4"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+                android:gravity="right|center_vertical"
+                android:onClick="clk"
+                android:paddingRight="12dp"
+                android:text="@string/girl_cerem"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/g7" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="384dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="276dp"
+                android:layout_marginLeft="276dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:text=" حفل التخرج 2016"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/img3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.958"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/loginButton4"
+                tools:background="@color/colorBehindIcon" />
+
+            <Button
+                android:id="@+id/g7"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+                android:gravity="right|center_vertical"
+                android:onClick="clk"
+                android:paddingRight="12dp"
+                android:text="@string/boy_cerem"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img2" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

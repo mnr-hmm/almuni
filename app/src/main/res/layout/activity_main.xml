@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/background"
+    android:fillViewport="false"
+    >
+    <TableLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        <TableRow
+            android:layout_marginTop="10dp">
+
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1"
+                >
+
+                    <ImageView
+                        android:onClick="toNews"
+                        android:id="@+id/imageView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentTop="true"
+                        android:contextClickable="true"
+                        android:src="@drawable/news" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/about"
+                    android:layout_alignTop="@+id/imageView2"
+                     />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:onClick="toCompany"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/company"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView3"
+                    android:layout_alignTop="@+id/imageView3"
+                     />
+            </TableRow>
+
+        </TableRow>
+        <!--begin text-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            >
+            <TableRow
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:onClick="toNews"
+                >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="آخر الأخبار"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_weight="1" android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="حول المركز"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:onClick="toCompany"
+                >
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="جهات وظفت خريجي الجامعة"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+        <!--end text row-->
+        </TableRow>
+
+        <TableRow >
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/contact"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView4"
+                    android:layout_alignTop="@+id/imageView4"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/form"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView5"
+                    android:layout_alignTop="@+id/imageView5"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/graduation_party"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView6"
+                    android:onClick="toGradParties"
+                    android:layout_alignTop="@+id/imageView6"
+                     />
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            >
+        <TableRow
+            android:layout_weight="1" android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="تواصل معنا"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="استبيانات"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal"
+
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="حفلات التخرج"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <!--end text row-->
+        </TableRow>
+        <TableRow >
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/id_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView7"
+                    android:layout_alignTop="@+id/imageView7"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/whorkshop"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView8"
+                    android:layout_alignTop="@+id/imageView8"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/notable"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView9"
+                    android:layout_alignTop="@+id/imageView9"
+                     />
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            >
+            <TableRow
+                android:layout_weight="1" android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="بطاقة الخريج"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_weight="1" android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="الورش التدريبية"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:text="خريجون بارزون"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!--end text row-->
+        </TableRow>
+
+        <TableRow
+            >
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/tlaqi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView10"
+                    android:onClick="toTalaqi"
+                    android:layout_alignTop="@+id/imageView10"
+                     />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/form"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView11"
+                    android:onClick="toServices"
+                    android:layout_alignTop="@+id/imageView11"
+                     />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="89dp"
+                android:layout_height="92dp"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:src="@drawable/logout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignTop="@+id/imageView9"
+                    />
+
+
+            </TableRow>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            >
+            <TableRow
+                android:layout_weight="1" android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="لقاء الخريجين تلاقي"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_weight="1" android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="الخدمات"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تسجيل خروج"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <!--end text row-->
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</ScrollView>

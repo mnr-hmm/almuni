@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Services">الخدمات</string>
+    <string name="Mailing_list">انضم للقائمة البريدية</string>
+    <string name="Membership_request">طلب عضوية</string>
+    <string name="Training_request">طلب تدريب</string>
+    <string name="First_name">الاسم الأول</string>
+    <string name="Sur_name">الكنية</string>
+    <string name="Email">البريد الإلكتروني</string>
+    <string name="Regist_in">التسجيل في:</string>
+    <string name="Guidance">التوجيه</string>
+    <string name="Donations">التبرعات</string>
+    <string name="The_news">النشرة الإخبارية</string>
+    <string name="Send">إرسال</string>
+    <string name="Arabic_Name">الإسم بالعربي</string>
+    <string name="English_Name">الإسم بالإنجليزي</string>
+    <string name="Age">العمر</string>
+    <string name="Gender">الجنس</string>
+    <string name="Male">ذكر</string>
+    <string name="Female">أنثى</string>
+    <string name="National_Id">رقم الهوية</string>
+    <string name="Student_Id">الرقم الأكاديمي</string>
+    <string name="Major">التخصص</string>
+    <string name="Graduate_Date">تاريخ التخرج</string>
+    <string name="Phone">رقم الجوال</string>
+
+    <string-array name="colleges">
+        <item>كلية الطب</item>
+        <item>كلية طب الأسنان</item>
+        <item>كلية التمريض</item>
+        <item>كلية الحاسب العلوم الطبية التطبيقية</item>
+        <item>كلية الصيدلة الإكلينيكية</item>
+        <item>كلية الصحة العامة</item>
+        <item>كلية العلوم الطبية التطبيقية-الجبيل</item>
+        <item>كلية العمارة و التخطيط</item>
+        <item>كلية التصاميم</item>
+        <item>كلية الهندسة</item>
+        <item>كلية الدراسات التطبيقية و خدمة المجتمع</item>
+        <item>كلية إدارة الأعمال</item>
+        <item>كلية علوم الحاسب و تقنية المعلومات</item>
+        <item>كلية العلوم</item>
+        <item>كلية المجتمع</item>
+        <item>كلية الآداب</item>
+        <item>كلية التربية-الدمام</item>
+        <item>كلية العلوم و الدراسات الإنسانية-الجبيل</item>
+        <item>كلية الشريعة و القانون</item>
+    </string-array>
+
+    <string name="boy_cerem">حفل تخرج الطلاب</string>
+    <string name="girl_cerem">حفل تخرج الطالبات</string>
+    <string name="talqi_title">لقاء الخريجين "تلاقي"</string>
+    <string name="talqi1">تلاقي 1 في مكة المكرمة </string>
+    <string name="talqi2">تلاقي 2 في المدينة المنورة </string>
+
+</resources>
